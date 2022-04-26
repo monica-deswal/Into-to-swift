@@ -13,6 +13,9 @@
 		EF510E76280FDE100009D0B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF510E74280FDE100009D0B3 /* Main.storyboard */; };
 		EF510E78280FDE120009D0B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF510E77280FDE120009D0B3 /* Assets.xcassets */; };
 		EF510E7B280FDE120009D0B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF510E79280FDE120009D0B3 /* LaunchScreen.storyboard */; };
+		EF510E832816CA9B0009D0B3 /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF510E822816CA9B0009D0B3 /* Closures.swift */; };
+		EF510E852817D26D0009D0B3 /* AutoClosures.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF510E842817D26D0009D0B3 /* AutoClosures.swift */; };
+		EF510E87281819CC0009D0B3 /* RetainCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF510E86281819CC0009D0B3 /* RetainCycle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		EF510E77280FDE120009D0B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF510E7A280FDE120009D0B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF510E7C280FDE120009D0B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF510E822816CA9B0009D0B3 /* Closures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closures.swift; sourceTree = "<group>"; };
+		EF510E842817D26D0009D0B3 /* AutoClosures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoClosures.swift; sourceTree = "<group>"; };
+		EF510E86281819CC0009D0B3 /* RetainCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetainCycle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +65,13 @@
 				EF510E6E280FDE100009D0B3 /* AppDelegate.swift */,
 				EF510E70280FDE100009D0B3 /* SceneDelegate.swift */,
 				EF510E72280FDE100009D0B3 /* ViewController.swift */,
+				EF510E822816CA9B0009D0B3 /* Closures.swift */,
+				EF510E842817D26D0009D0B3 /* AutoClosures.swift */,
 				EF510E74280FDE100009D0B3 /* Main.storyboard */,
 				EF510E77280FDE120009D0B3 /* Assets.xcassets */,
 				EF510E79280FDE120009D0B3 /* LaunchScreen.storyboard */,
 				EF510E7C280FDE120009D0B3 /* Info.plist */,
+				EF510E86281819CC0009D0B3 /* RetainCycle.swift */,
 			);
 			path = Closure;
 			sourceTree = "<group>";
@@ -138,7 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF510E852817D26D0009D0B3 /* AutoClosures.swift in Sources */,
 				EF510E73280FDE100009D0B3 /* ViewController.swift in Sources */,
+				EF510E832816CA9B0009D0B3 /* Closures.swift in Sources */,
+				EF510E87281819CC0009D0B3 /* RetainCycle.swift in Sources */,
 				EF510E6F280FDE100009D0B3 /* AppDelegate.swift in Sources */,
 				EF510E71280FDE100009D0B3 /* SceneDelegate.swift in Sources */,
 			);

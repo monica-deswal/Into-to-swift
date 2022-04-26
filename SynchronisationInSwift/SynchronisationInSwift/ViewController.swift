@@ -70,5 +70,11 @@ class ViewController: UIViewController {
         
         OperationsImplementation().addCompletionOperation()
     }
+    
+    func customOperationImplementation() {
+        CustomOperationImplementation().basicOperationImplementation()
+        
+        
+    }
 }
 

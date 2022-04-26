@@ -21,6 +21,7 @@
 		EF510E5F280FDC640009D0B3 /* InterviewQuestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF510E57280FDC640009D0B3 /* InterviewQuestions.swift */; };
 		EF510E60280FDC640009D0B3 /* DispatchBarrierImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF510E58280FDC640009D0B3 /* DispatchBarrierImplementation.swift */; };
 		EF510E61280FDC640009D0B3 /* SemaphoreImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF510E59280FDC640009D0B3 /* SemaphoreImplementation.swift */; };
+		EF510E8928183F4F0009D0B3 /* CustomOperationImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF510E8828183F4E0009D0B3 /* CustomOperationImplementation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		EF510E57280FDC640009D0B3 /* InterviewQuestions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterviewQuestions.swift; sourceTree = "<group>"; };
 		EF510E58280FDC640009D0B3 /* DispatchBarrierImplementation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchBarrierImplementation.swift; sourceTree = "<group>"; };
 		EF510E59280FDC640009D0B3 /* SemaphoreImplementation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SemaphoreImplementation.swift; sourceTree = "<group>"; };
+		EF510E8828183F4E0009D0B3 /* CustomOperationImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomOperationImplementation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				EF510E57280FDC640009D0B3 /* InterviewQuestions.swift */,
 				EF510E53280FDC640009D0B3 /* OperationsImplementation.swift */,
 				EF510E59280FDC640009D0B3 /* SemaphoreImplementation.swift */,
+				EF510E8828183F4E0009D0B3 /* CustomOperationImplementation.swift */,
 			);
 			path = WorkingSamples;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 				EF510E42280FDA2F0009D0B3 /* ViewController.swift in Sources */,
 				EF510E5A280FDC640009D0B3 /* AsyncAwaitOperation.swift in Sources */,
 				EF510E60280FDC640009D0B3 /* DispatchBarrierImplementation.swift in Sources */,
+				EF510E8928183F4F0009D0B3 /* CustomOperationImplementation.swift in Sources */,
 				EF510E5D280FDC640009D0B3 /* BasicUnderstanding.swift in Sources */,
 				EF510E5F280FDC640009D0B3 /* InterviewQuestions.swift in Sources */,
 				EF510E3E280FDA2F0009D0B3 /* AppDelegate.swift in Sources */,
